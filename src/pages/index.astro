@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Alert from '../components/Game.svelte';
+---
+
+<Layout title="Spooky Arkham">
+	<main>
+		<Alert client:only="svelte" />
+	</main>
+</Layout>
